@@ -13,7 +13,7 @@ public class ArticleReaderTests
     public async Task TestGetArticles()
     {
         var provider = CreateProvider();
-        var articleReader = provider.GetRequiredService<ArticleReader>();
+        var articleReader = provider.GetRequiredService<IArticleReader>();
 
         var articles = await articleReader.GetArticles();
         
@@ -24,6 +24,8 @@ public class ArticleReaderTests
     {
         var services = new ServiceCollection();
 
+        services.UseCoreServices();
+        
         services
             .AddSingleton<HttpClient>()
             .AddSingleton<ArticleReader>();

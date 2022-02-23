@@ -2,7 +2,7 @@ using System.Text.Json;
 
 namespace Core;
 
-public class ArticleReader
+public class ArticleReader : IArticleReader
 {
     private readonly HttpClient _httpClient;
 

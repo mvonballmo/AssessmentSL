@@ -9,6 +9,7 @@
 - Set up SQL Server with DB Schema
 - ~~Create controller~~
 - ~~Build initial client with context/state/master/detail~~
+- Tighten up CORS restrictions (right now it's all open)
 
 ## Notes
 

@@ -7,7 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(b => b
-        .WithOrigins("http://localhost:3000/")
+        // TODO Figure out why the specific origin doesn't work 
+//        .WithOrigins("http://localhost:3000/")
+        .AllowAnyOrigin()
         .AllowAnyHeader()
         .AllowAnyMethod()
     );

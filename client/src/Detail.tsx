@@ -24,8 +24,8 @@ export function Detail() {
           <li>Title: {article.title}</li>
           <li>Rating: {article.rating}</li>
         </ul>
-        <button onClick={e => rateEntity(e, 5)}></button>
-        <button onClick={e => addComment(e, "comment")}></button>
+        <button onClick={e => rateEntity(e, 5)}>Rate as 5/5</button>
+        <button onClick={e => addComment(e, "comment")}>Add comment</button>
       </>
   );
 }

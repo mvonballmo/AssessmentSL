@@ -11,6 +11,7 @@
 - Right now it's a single-client API (retrieves only at the beginning; won't pick up changes from other clients)
 - It's also single-user
 - Improve error-handling in client when rate/add-comment fail
+- Add tests for client logic (e.g. gets/posts)
 - Integrate Entity Framework
 - Set up Docker
 - Set up SQL Server with DB Schema

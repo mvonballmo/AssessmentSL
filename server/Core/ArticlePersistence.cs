@@ -5,10 +5,10 @@ class ArticlePersistence : IArticlePersistence
     public Task<bool> TryGetAnnotation(int id, out ArticleAnnotation? articleAnnotation)
     {
         // TODO Get from database
+
+        articleAnnotation = new ArticleAnnotation(id, 0, new List<string>());
         
-        articleAnnotation = null;
-        
-        return Task.FromResult(false);
+        return Task.FromResult(true);
     }
 
     Task IArticlePersistence.SaveAnnotation(ArticleAnnotation articleAnnotation)

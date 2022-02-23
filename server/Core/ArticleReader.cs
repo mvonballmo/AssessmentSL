@@ -18,7 +18,11 @@ public class ArticleReader
         response.EnsureSuccessStatusCode();
 
         var stream = await response.Content.ReadAsStreamAsync();
-
-        return await JsonSerializer.DeserializeAsync<IEnumerable<Article>>(stream);
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+        
+        return await JsonSerializer.DeserializeAsync<IEnumerable<Article>>(stream, options);
     }
 }

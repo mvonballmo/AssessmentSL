@@ -13,7 +13,7 @@ export function MasterDetail() {
       setLoading(true);
 
       // TODO Add timeout handling
-      const response = await fetch("https://api.spaceflightnewsapi.net/v3/articles");
+      const response = await fetch("https://localhost:7242/Article");
 
       const data = await response.json();
       service.setArticles(data);

@@ -85,6 +85,11 @@ article {
 
 article img {
   max-width: 300px;
+  float: right;
+}
+
+article .text {
+  max-width: 50em;
 }
 
 input:invalid {

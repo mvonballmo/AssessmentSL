@@ -19,13 +19,22 @@ export function Detail() {
     <div>Nothing selected</div>
   ) : (
       <>
-        {article.imageUrl ? <img src={article.imageUrl}/> : ""}
-        <ul>
-          <li>Title: {article.title}</li>
-          <li>Rating: {article.rating}</li>
-        </ul>
-        <button onClick={e => rateEntity(e, 5)}>Rate as 5/5</button>
-        <button onClick={e => addComment(e, "comment")}>Add comment</button>
+          <h2><a href={article.url}>{article.title}</a></h2>
+          <p>
+              <button onClick={e => rateEntity(e, 5)}>Rate as 5/5</button>
+              <button onClick={e => addComment(e, "comment")}>Add comment</button>
+          </p>
+          <div className="text">
+              {article.imageUrl ? <img src={article.imageUrl}/> : ""}
+              <p>{article.summary}</p>
+              <ul>
+                  <li>Rating: {article.rating}</li>
+              </ul>
+              <h3>Comments</h3>
+              <ul>
+                  {article.comments.map(c => <li>{c}</li>)}
+              </ul>
+          </div>
       </>
   );
 }

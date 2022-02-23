@@ -4,6 +4,8 @@
     "Title": "NOAA seeking information on commercial space situational awareness data",
     "ImageUrl": "https://spacenews.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-11-at-11.07.23-AM.png",
     "Rating": 0,
+    "Url": "https://spacenews.com/noaa-seeking-information-on-commercial-space-situational-awareness-data/",
+    "Summary": "The Commerce Department is seeking information on commercial sources of space situational awareness (SSA) data to augment its own space traffic management capabilities.",
     "Comments": []
   },
   {
@@ -11,6 +13,8 @@
     "Title": "SpaceX to launch “next-generation satellite-servicing vehicle” for Northrop Grumman",
     "ImageUrl": "https://www.teslarati.com/wp-content/uploads/2022/02/MEVMEP.4K4002-crop-c.jpg",
     "Rating": 0,
+    "Url": "https://www.teslarati.com/spacex-spacelogistics-next-generation-satellite-servicing-vehicle-launch/",
+    "Summary": "Northrop Grumman subsidiary SpaceLogistics has selected SpaceX to launch its first Mission Robotic Vehicle (MRV) – better described as the company’s “next-generation...",
     "Comments": []
   },
   {
@@ -18,6 +22,8 @@
     "Title": "Lynk reveals mobile network contracts",
     "ImageUrl": "https://spacenews.com/wp-content/uploads/2022/02/rsz_lynk.jpg",
     "Rating": 0,
+    "Url": "https://spacenews.com/lynk-reveals-mobile-network-contracts/",
+    "Summary": "Lynk Global announced contracts Feb. 23 with seven mobile network operators serving Pacific and Caribbean Island nations.",
     "Comments": []
   },
   {
@@ -25,6 +31,8 @@
     "Title": "Washington state space economy more than doubles",
     "ImageUrl": "https://spacenews.com/wp-content/uploads/2020/03/Starlink-470x470.jpg",
     "Rating": 0,
+    "Url": "https://spacenews.com/washington-state-space-economy/",
+    "Summary": "Washington state’s space economy is booming.",
     "Comments": []
   },
   {
@@ -32,6 +40,8 @@
     "Title": "U.S. and international partners to share launch cost of new communications satellite",
     "ImageUrl": "https://spacenews.com/wp-content/uploads/2020/10/WGS-11_BeautyShot_FINAL-copy-253x253.jpg",
     "Rating": 0,
+    "Url": "https://spacenews.com/u-s-and-international-partners-to-share-launch-cost-of-new-communications-satellite/",
+    "Summary": "U.S. officials are in talks with international users of the Wideband Global Satcom (WGS) communications satellites about a cost-sharing agreement to fund the launch of the new WGS-11+.",
     "Comments": []
   },
   {
@@ -39,6 +49,8 @@
     "Title": "U.S. and allies to strengthen cooperation in space",
     "ImageUrl": "https://spacenews.com/wp-content/uploads/2022/02/180928-D-XX000-228.jpg",
     "Rating": 0,
+    "Url": "https://spacenews.com/u-s-and-allies-to-strengthen-cooperation-in-space/",
+    "Summary": "The Defense Department announced Feb. 22 that the United States, Australia, Canada, France, Germany, New Zealand, and the United Kingdom have signed a joint vision document that calls for greater cooperation to prevent conflicts in space.",
     "Comments": []
   },
   {
@@ -46,6 +58,8 @@
     "Title": "NASA to Provide Media Update on Artemis I Moon Mission",
     "ImageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/ksc-20220119-ph-csh01_0016_large.jpeg?itok=iIJTdmca",
     "Rating": 0,
+    "Url": "http://www.nasa.gov/press-release/nasa-to-provide-media-update-on-artemis-i-moon-mission",
+    "Summary": "NASA will host a media teleconference at 1:30 p.m. EST on Thursday, Feb. 24, to provide an update on progress toward the launch of the agency’s uncrewed Artemis I mission.",
     "Comments": []
   },
   {
@@ -53,6 +67,8 @@
     "Title": "With eyes on reuse, Relativity plans rapid transition to Terran R engines",
     "ImageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2022/02/E4B-Thumbnail-1-3.png",
     "Rating": 0,
+    "Url": "https://arstechnica.com/science/2022/02/relativity-space-plans-upgrade-to-terran-1-rocket-soon-after-its-initial-launch/",
+    "Summary": "\"Yeah, we are definitely launching this year.\"",
     "Comments": []
   },
   {
@@ -60,6 +76,8 @@
     "Title": "CAPSTONE lunar cubesat mission to launch this spring",
     "ImageUrl": "https://spacenews.com/wp-content/uploads/2021/08/capstone.jpg",
     "Rating": 0,
+    "Url": "https://spacenews.com/capstone-lunar-cubesat-mission-to-launch-this-spring/",
+    "Summary": "A cubesat mission to test a lunar orbit critical to NASA’s Artemis program is in the final stages of preparations for a launch this spring.",
     "Comments": []
   },
   {
@@ -67,6 +85,8 @@
     "Title": "SpaceX to send retired Starship to local Texas airport, says Elon Musk",
     "ImageUrl": "https://www.teslarati.com/wp-content/uploads/2022/02/Starbase-022022-NASASpaceflight-bocachicagal-S22-B5-SN15-SN16-4-crop-c.jpg",
     "Rating": 0,
+    "Url": "https://www.teslarati.com/spacex-starship-display-local-texas-airport-elon-musk/",
+    "Summary": "In a brief Twitter exchange, the Brownsville/South Padre Island International Airport (BRO) appears to have talked SpaceX CEO Elon Musk into turning...",
     "Comments": []
   }
 ]

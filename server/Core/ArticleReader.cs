@@ -22,7 +22,7 @@ public class ArticleReader : IArticleReader
         {
             PropertyNameCaseInsensitive = true
         };
-        
+
         return await JsonSerializer.DeserializeAsync<IEnumerable<Article>>(stream, options);
     }
 }

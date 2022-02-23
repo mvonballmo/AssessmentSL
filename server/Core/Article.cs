@@ -2,15 +2,15 @@ using System.Data.Common;
 
 namespace Core;
 
-public record Article
+public class Article
 {
-    public int Id;
+    public int Id { get; set; }
 
-    public bool Featured;
+    public bool Featured { get; set; }
 
-    public string? Title;
+    public string? Title { get; set; }
 
-    public string? ImageUrl;
+    public string? ImageUrl { get; set; }
 
-    public string? NewsSite;
+    public string? NewsSite { get; set; }
 }

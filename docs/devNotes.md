@@ -7,6 +7,7 @@
 - ~~Create controller~~
 - ~~Build initial client with context/state/master/detail~~
 - Add persistence API
+- Ratings are persisted to app state, but comments are not. what's different? Because it's an array?
 - Tighten up CORS restrictions (right now it's all open)
 - Right now it's a single-client API (retrieves only at the beginning; won't pick up changes from other clients)
 - It's also single-user

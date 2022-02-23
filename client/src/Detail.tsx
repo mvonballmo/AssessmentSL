@@ -33,7 +33,7 @@ export function Detail() {
               </ul>
               <h3>Comments</h3>
               <ul>
-                  {article.comments.map(c => <li>{c}</li>)}
+                  {article.comments.map((c,i) => <li key={i}>{c}</li>)}
               </ul>
           </div>
       </>

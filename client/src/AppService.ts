@@ -21,14 +21,19 @@ export class AppService {
 
     article.rating = rating;
 
-    // const response = await fetch("https://api.spaceflightnewsapi.net/v3/articles");
-    //
-    // const data = await response.json();
-    //
-    //
-//    article = (await state.crud.save(article)) as Article;
+    const response = await fetch(
+        `https://localhost:7242/Article/Rate/${article.id}/${rating}`,
+        {
+          method: "POST"
+        }
+    );
 
-    this.dispatch(CreateRateArticleAction(rating));
+    if (response.ok) {
+      this.dispatch(CreateRateArticleAction(rating));
+    } else {
+      // TODO Improve error-handling
+      console.log("Could not save rating");
+    }
   }
 
   addComment(comment: string) {

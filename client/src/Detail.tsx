@@ -28,6 +28,7 @@ export function Detail() {
               {article.imageUrl ? <img src={article.imageUrl}/> : ""}
               <p>{article.summary}</p>
               <ul>
+                  <li>Id: {article.id}</li>
                   <li>Rating: {article.rating}</li>
               </ul>
               <h3>Comments</h3>

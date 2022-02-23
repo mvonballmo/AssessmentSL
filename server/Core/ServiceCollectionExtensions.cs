@@ -1,3 +1,4 @@
+using Blog.Web.Server.Controllers;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Core;
@@ -8,6 +9,7 @@ public static class ServiceCollectionExtensions
     {
         return collection
             .AddSingleton<HttpClient>()
-            .AddSingleton<IArticleReader, ArticleReader>();
+            .AddSingleton<IArticleReader, ArticleReader>()
+            .AddSingleton<IArticlePersistence, ArticlePersistence>();
     }
 }

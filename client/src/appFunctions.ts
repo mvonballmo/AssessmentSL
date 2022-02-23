@@ -34,15 +34,15 @@ export function reducer(state: AppState, action: AppAction): AppState {
       return { ...state, article: newArticle };
     }
     case "createComment": {
-      const ratedArticle = state.article;
-      if (!ratedArticle) {
+      const commentedArticle = state.article;
+      if (!commentedArticle) {
         throw new Error("The article must be assigned in order to be rated.");
       }
       const { comment } = action;
       const newArticle = {
-        ...ratedArticle,
+        ...commentedArticle,
         comments: [
-          ...ratedArticle.comments,
+          ...commentedArticle.comments,
           comment
         ]
       };

@@ -1,7 +1,6 @@
-using System.Data.Common;
-
 namespace Core;
 
-public record Article(
-    int Id, bool Featured, string? Title, string? ImageUrl
-);
+public record Article(int Id, string? Title, string? ImageUrl, int Rating)
+{
+    public IList<string> Comments { get; } = new List<string>();
+};

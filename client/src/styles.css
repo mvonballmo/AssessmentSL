@@ -73,6 +73,9 @@ nav ul {
 
 nav a {
   display: block;
+  padding-bottom: .5em;
+  border-bottom: 1px dotted silver;
+  margin-bottom: .5em;
 }
 
 section,
@@ -80,20 +83,8 @@ article {
   padding: var(--default-spacing);
 }
 
-article form {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: var(--default-spacing);
-  row-gap: var(--default-spacing);
-}
-
-article form div {
-  display: contents;
-}
-
-article form label {
-  align-self: center;
-  justify-self: end;
+article img {
+  max-width: 300px;
 }
 
 input:invalid {

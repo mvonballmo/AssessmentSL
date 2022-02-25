@@ -11,7 +11,7 @@ class ArticlePersistence : IArticlePersistence
         return Task.FromResult(true);
     }
 
-    Task IArticlePersistence.SaveAnnotation(ArticleAnnotation articleAnnotation)
+    public Task SaveAnnotation(ArticleAnnotation articleAnnotation)
     {
         // TODO Save to database
         
